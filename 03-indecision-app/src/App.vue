@@ -1,7 +1,7 @@
 <template>
   <h1>My primera app</h1>
   <hr />
-  <MyCounter />
+  <MyCounter :value="5" />
 </template>
 <script lang="ts" setup>
 import MyCounter from './components/MyCounter.vue';
