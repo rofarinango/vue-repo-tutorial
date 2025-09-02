@@ -1,5 +1,5 @@
 <template>
-  <h1>My primera app</h1>
+  <h1 class="text-3xl font-bold underline">Hello world!</h1>
   <hr />
   <MyCounter :value="5" />
   <MyCounterScript :value="5" />
