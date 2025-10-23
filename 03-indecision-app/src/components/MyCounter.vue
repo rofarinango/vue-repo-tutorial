@@ -10,16 +10,19 @@
   </section>
 </template>
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
+import { useCounter } from '@/composables/useCounter';
 
-interface Props {
-  value?: number;
-}
+const { counter, squareCounter } = useCounter(10);
+// import { computed, ref } from 'vue';
 
-const props = defineProps<Props>();
+// interface Props {
+//   value?: number;
+// }
 
-const counter = ref(props.value ?? 10);
-const squareCounter = computed(() => counter.value * counter.value);
+// const props = defineProps<Props>();
+
+// const counter = ref(props.value ?? 10);
+// const squareCounter = computed(() => counter.value * counter.value);
 </script>
 <style scoped>
 .btn {
