@@ -25,6 +25,7 @@ const { counter, squareCounter } = useCounter(10);
 // const squareCounter = computed(() => counter.value * counter.value);
 </script>
 <style scoped>
+@reference "tailwindcss"
 .btn {
   @apply p-5 bg-blue-500 rounded hover:bg-blue-700 mr-2;
 }
