@@ -10,5 +10,5 @@ test('adds 1 + 2 to equal 3', () => {
   const result = sum(a, b);
 
   // Assert
-  expect(result).toBe(3);
+  expect(result).toBe(a + b);
 });
