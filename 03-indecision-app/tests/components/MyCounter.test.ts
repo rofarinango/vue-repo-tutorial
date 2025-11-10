@@ -1,6 +1,6 @@
 import { describe, test } from 'vitest';
 import { mount } from '@vue/test-utils';
-import MyCounter from '../../src/components/MyCounter.vue';
+import MyCounter from '@/components/MyCounter.vue';
 
 describe('<MyCounter/>', () => {
   test('should match snapshot', () => {
